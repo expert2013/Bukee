@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="logo.svg">
+  <defs
+     id="defs2">
+    <style
+       id="style817">
+      .cls-1 {
+        font-size: 28px;
+        text-anchor: middle;
+        fill: #fefefe;
+        font-family: &quot;Roboto Slab&quot;;
+        font-weight: 700;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #65e496;
+      }
+
+      .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-4 {
+        fill: #44444f;
+      }
+    </style>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="4.6386205"
+     inkscape:cx="350"
+     inkscape:cy="627.50568"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g837"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g837"
+       transform="matrix(0.26458333,0,0,0.26458333,62.724194,124.9758)">
+      <g
+         aria-label="BUKEE"
+         style="font-weight:700;font-size:28px;font-family:'Roboto Slab';text-anchor:middle;fill:#fefefe"
+         id="BUKEE">
+        <path
+           d="m 49.869141,3.09375 q 3.513671,0 5.482421,1.3671875 1.96875,1.3671875 1.96875,4.0878906 0,1.3808594 -0.738281,2.4746099 -0.724609,1.080078 -2.11914,1.626953 1.791015,0.382812 2.679687,1.640625 0.902344,1.257812 0.902344,2.912109 0,2.857422 -1.886719,4.333984 Q 54.271484,23 50.8125,23 h -9.789063 v -2.392578 l 2.119141,-0.410156 V 5.9101562 L 41.023437,5.5 V 3.09375 h 2.119141 z M 47.134766,14.195313 V 19.9375 H 50.8125 q 1.585937,0 2.419922,-0.683594 0.833984,-0.697265 0.833984,-2.050781 0,-1.462891 -0.710937,-2.228516 -0.710938,-0.779296 -2.242188,-0.779296 z m 0,-2.761719 h 2.871093 q 1.59961,0 2.460938,-0.65625 0.861328,-0.65625 0.861328,-1.9140627 0,-1.3808594 -0.875,-2.0371094 -0.861328,-0.65625 -2.583984,-0.65625 h -2.734375 z"
+           style="font-weight:700;font-size:28px;font-family:'Roboto Slab';text-anchor:middle;fill:#fefefe"
+           id="path839" />
+        <path
+           d="M 67.574219,3.09375 V 5.5 L 65.441406,5.9101562 V 16.300781 q 0,1.96875 1.052735,2.953125 1.066406,0.970703 2.912109,0.970703 1.873047,0 2.939453,-0.970703 1.066406,-0.970703 1.066406,-2.953125 V 5.9101562 L 71.292969,5.5 V 3.09375 h 8.24414 V 5.5 L 77.404297,5.9101562 V 16.300781 q 0,3.34961 -2.214844,5.167969 -2.201172,1.818359 -5.783203,1.818359 -3.568359,0 -5.769531,-1.818359 -2.1875,-1.818359 -2.1875,-5.167969 V 5.9101562 L 59.330078,5.5 V 3.09375 h 2.119141 3.992187 z"
+           style="font-weight:700;font-size:28px;font-family:'Roboto Slab';text-anchor:middle;fill:#fefefe"
+           id="path841" />
+        <path
+           d="m 80.726562,20.607422 2.119141,-0.410156 V 5.9101562 L 80.726562,5.5 V 3.09375 h 8.134766 V 5.5 l -2.023437,0.4101562 v 5.3183598 h 1.736328 L 92.402344,5.6640625 91.226562,5.5 V 3.09375 h 7.888672 V 5.5 l -2.160156,0.3691406 -4.894531,6.5351564 5.496094,7.861328 1.996093,0.341797 V 23 H 91.664062 V 20.607422 L 92.894531,20.443359 89.066406,14.6875 h -2.228515 v 5.509766 l 2.023437,0.410156 V 23 h -8.134766 z"
+           style="font-weight:700;font-size:28px;font-family:'Roboto Slab';text-anchor:middle;fill:#fefefe"
+           id="path843" />
+        <path
+           d="m 113.59375,14.25 h -6.74023 v 5.6875 h 6.42578 l 0.17773,-2.378906 h 3.03516 V 23 h -15.75 v -2.392578 l 2.11914,-0.410156 V 5.9101562 L 100.74219,5.5 V 3.09375 h 2.11914 13.60351 v 5.4550781 h -3.0625 l -0.17773,-2.3789062 h -6.37109 v 5.0039061 h 6.74023 z"
+           style="fill:#65e496"
+           id="path845" />
+        <path
+           d="m 131.47656,14.25 h -6.74023 v 5.6875 h 6.42578 l 0.17773,-2.378906 H 134.375 V 23 h -15.75 v -2.392578 l 2.11914,-0.410156 V 5.9101562 L 118.625,5.5 V 3.09375 h 2.11914 13.60352 v 5.4550781 h -3.0625 l -0.17774,-2.3789062 h -6.37109 v 5.0039061 h 6.74023 z"
+           style="fill:#65e496"
+           id="path847" />
+      </g>
+      <g
+         data-name="logo icon"
+         id="logo_icon">
+        <path
+           transform="translate(-215,-50)"
+           d="M 243,78 215,50 h 28 z"
+           class="cls-3"
+           data-name="Rectangle 10 copy 3"
+           id="Rectangle_10_copy_3"
+           inkscape:connector-curvature="0"
+           style="fill:#65e496;fill-rule:evenodd" />
+        <path
+           id="path825"
+           transform="translate(-215,-50)"
+           d="M 243,50 215,78 V 50 Z"
+           class="cls-4"
+           inkscape:connector-curvature="0"
+           style="fill:#44444f;fill-rule:evenodd" />
+      </g>
+    </g>
+  </g>
+</svg>
