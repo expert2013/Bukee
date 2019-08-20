@@ -42,6 +42,7 @@ body {
 	padding-bottom: 160px;
 	&_gray {
 		background-color: $bg-light-color;
+		padding-bottom: 236px;
 	}
 	&__title {
 		font-size: 48px;
@@ -147,6 +148,13 @@ body {
 		width: 139px;
 		margin-top: 25px;
 	}
+	&__btn_other {
+		width: 220px;
+		border: none;
+		margin: 0 auto;
+		margin-top: 83px;
+
+	}
 	& small {
 		font-family: 'Open Sans', sans-serif;
 		font-size: 12px;
@@ -198,7 +206,78 @@ body {
 			color: $accent-color;	
 		}
 	}
+	&-other {
+		flex-basis: 32%;
+		text-align: center;
+		margin-top: 87px;
+		h3 {
+			margin-top: 35px;
+			letter-spacing: 2px;
+		}
+		p {
+			margin: 0 auto;
+			margin-top: 20px;
+			text-align: center;
+			width: 90%;
+			letter-spacing: 0.8px;
+			 
+		}
+		&__description {
+			display: block;
+			padding-top: 15px;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 13px;
+			font-weight: 700;
+			line-height: 24px;
+			color: $accent-color;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+		}
+	}
+
+	.book-small {
+		position: relative;
+		display: block;
+		width: 269px;
+		height: 408px;
+		background-image: url(../img/book-small.svg);
+		background-repeat: no-repeat;
+		text-align: center;
+		margin: auto;
+		&__title {	
+			display: block;
+			padding-top: 69px;
+			font-size: 24px;
+			font-weight: 700;
+			text-transform: uppercase;
+			color: $light-color;
+			letter-spacing: 0.5px;
+		}
+		&__subtitle {
+			margin-top: 6px;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 12px;
+			display: block;
+			text-transform: none;
+			color: $accent-color;
+			letter-spacing: 0.5px;
+		}
+	
+		&__description {
+			position: absolute;
+			bottom: 26px;
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+			font-size: 12px;
+			color: $accent-color;
+			
+		}	
+	}
+
 }
+
+
 .block-author {
 	display: flex;
 	justify-content: space-between;
@@ -257,6 +336,7 @@ body {
 		justify-content: flex-start;
 		margin-top: 30px;
 		& p {
+			color: #696980;
 			font-size: 18px;
 			padding-right: 30px;
 		}
@@ -305,4 +385,5 @@ body {
 		}
 	}
 }
+
 	
