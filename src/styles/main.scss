@@ -56,6 +56,48 @@ body {
 		text-align: center;
 		letter-spacing: 0.9px;
 	}
+	&__btn {
+		display: block;
+		background: linear-gradient(to top left,#65e49c,#65e4af);
+		color: $light-color;
+		text-decoration: none;
+		max-width: 250px;
+		border-radius: 3px;
+		text-align: center;
+		font-size: 18px;
+		margin-top: 48px;
+		padding: 14px 0;
+		letter-spacing: 0.7px;
+		margin-bottom: 19px;
+		position: relative;
+		&:before {
+			content: '';
+			display: block;
+			height: 20px;
+			width: 100%;
+			background-color: #b2f1be;
+			position: absolute;
+			z-index: -1;
+			bottom: -2px;
+			border-radius: 3px;
+		}		
+	}
+	&__btn_demo {
+		position: relative;
+		&:after {
+			content: '';
+		}
+	}
+	&__btn_about {
+		width: 139px;
+		margin-top: 25px;
+	}
+	&__btn_other {
+		width: 220px;
+		border: none;
+		margin: 0 auto;
+		margin-top: 83px;
+	}
 }
 .header { 
 	  display: flex;
@@ -130,31 +172,7 @@ body {
 			margin-bottom: 24px;
 			letter-spacing: 0.75px;
 	}
-	&__btn {
-		display: block;
-		background-color: $accent-color;
-		color: $light-color;
-		text-decoration: none;
-		max-width: 250px;
-		border-radius: 3px;
-		text-align: center;
-		font-size: 18px;
-		margin-top: 48px;
-		padding: 14px 0;
-		letter-spacing: 0.7px;
-		margin-bottom: 19px;
-	}
-	&__btn_about {
-		width: 139px;
-		margin-top: 25px;
-	}
-	&__btn_other {
-		width: 220px;
-		border: none;
-		margin: 0 auto;
-		margin-top: 83px;
 
-	}
 	& small {
 		font-family: 'Open Sans', sans-serif;
 		font-size: 12px;
