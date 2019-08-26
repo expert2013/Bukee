@@ -10,6 +10,7 @@ $light-color: #fff;
 $accent-color: #65e496;
 $bg-light-color: #f5f6fa;
 $bg-dark-color: #44444f;
+$gray-color: #9191b5;
 
 h1,	h2, h3, h4, p {
 	padding: 0;
@@ -43,6 +44,12 @@ body {
 	&_gray {
 		background-color: $bg-light-color;
 		padding-bottom: 236px;
+		&-blog {
+			padding-bottom: 160px;
+		}	
+	}
+	&_letter {
+		padding-top: 165px;
 	}
 	&__title {
 		font-size: 48px;
@@ -92,8 +99,18 @@ body {
 		min-width: 260px;
 		margin: 0 auto;
 		margin-top: 83px;
-		
 	}
+	&__btn_letter {
+		min-width: 100% ;
+		margin: 0;
+		padding: 15px 0 15px 0;
+		box-shadow: 0 -2px #b2f1be inset;
+		margin-top: 20px;
+		&:focus {
+			outline: none;
+		}
+	}	
+	
 }
 .header { 
 	  display: flex;
@@ -495,6 +512,104 @@ body {
 		font-size: 15px;
 		padding-top: 15px;
     letter-spacing: 0.75px;
+	}
+}
+.block-letter {
+	display: flex;
+	justify-content: space-between;
+	&-item {
+		flex-basis: 49%;
+	} 
+	&__title {
+		font-size: 48px;
+		margin-bottom: 25px;
+		letter-spacing: 2px;
+	}
+	&__text {
+		font-size: 15px;
+		font-family: 'Open Sans', sans-serif;
+		letter-spacing: 0.75px;
+	}
+	&__input {
+		margin-top: -6px;
+		box-sizing: border-box;	
+		width: 100%;
+		background-color: $bg-dark-color;
+		border: none;
+		border-radius: 3px;
+		color: $gray-color;
+		padding: 15px 15px 15px 30px;
+		&:placeholder {
+			color: $gray-color;
+		}
+		&:focus {
+			outline: none;
+		}
+	}
+}
+.footer {
+	padding-top: 158px;
+	padding-bottom: 100px;
+	background-color: $bg-dark-color;
+	color: $gray-color;
+	
+}
+.block-footer {
+	display: flex;
+	justify-content: space-between;
+	& p {
+		font-size: 15px;
+		font-family: 'Open Sans', sans-serif;
+		padding-top: 30px;
+	}
+	&__copyright {
+		margin-top: -7px;
+		letter-spacing: 0.5px;
+	}
+	&_left {
+		flex-basis: 32%;
+	}
+	&_center {
+		flex-basis: 23%;
+	}
+	&_right {	
+		flex-basis: 23%;
+	}
+	&__logo {
+		display: block; 
+		width: 137px;
+		height: 28px;
+		background-image: url(../img/logo-footer.svg);
+	}
+	&__title {
+		padding-top: 10px;
+		font-size: 18px;
+		color: $accent-color;
+		letter-spacing: 2px;
+	}
+	&__list {
+		list-style-type: none;
+		padding-left: 0;
+		margin-top: 22px;
+		line-height: 1.8;
+		letter-spacing: 0.5px;
+		&_contact {
+			line-height: 1.6;
+		}
+	}
+	&__social {
+		display: flex;
+		list-style-type: none;
+		margin-top: 10px;
+		
+		&>li {
+			margin-right: 10px;
+			padding-left: 0;
+			&>a {
+				color: $accent-color;
+				letter-spacing: 1.5px;
+			}		
+		}
 	}
 }
 
