@@ -30,6 +30,8 @@ body {
 .wrap {
 	max-width: 1170px;
 	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 .page-main {
 	padding-bottom: 157px;
@@ -41,6 +43,7 @@ body {
 .page {
 	padding-top: 161px;
 	padding-bottom: 160px;
+	position: relative;
 	&_gray {
 		background-color: $bg-light-color;
 		padding-bottom: 236px;
@@ -110,7 +113,12 @@ body {
 			outline: none;
 		}
 	}	
-	
+	&__svg {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: -1;
+	}
 }
 .header { 
 	  display: flex;
@@ -118,8 +126,7 @@ body {
 		align-items: center;
 		max-width: 1170px;
 		margin: 0 auto;
-		padding-top: 26px;
-		padding-bottom: 180px;
+		padding: 36px 15px 180px 15px;
 		&__logo {
 			display: block;
 			width: 137px;
@@ -162,6 +169,7 @@ body {
 		font-size: 18px;
 		margin-bottom: 40px;
 		letter-spacing: 0.7px;
+		line-height: 1.2;
 	}
 	&__name_author {
 		margin-bottom: 30px;
@@ -191,6 +199,8 @@ body {
 			line-height: 24px;
 			margin-bottom: 24px;
 			letter-spacing: 0.75px;
+			max-width: 86%;
+
 	}
 
 	& small {
@@ -238,7 +248,7 @@ body {
 	}
 }
 .block-text_author {
-	flex-basis: calc(93% - 500px);
+	flex-basis: calc(93% - 421px);
 }
 .block-book {
 	display: flex;
@@ -254,7 +264,7 @@ body {
 		&__title {
 			display: block;
 			padding-left: 35px;
-			padding-top: 109px;
+			padding-top: 114px;
 			text-align: center;
 			text-transform: uppercase;
 			font-size: 34px;
@@ -267,7 +277,7 @@ body {
 				font-family: 'Open Sans', sans-serif;
 				font-weight: 400;
 				color: $accent-color;
-				letter-spacing: 1px;
+				letter-spacing: 0.7px;
 				text-transform: none;
 			}		
 		}
@@ -410,10 +420,10 @@ body {
 	}
 	p {
 		font-family: 'Open Sans', sans-serif;
-		letter-spacing: 0.6px;
+		letter-spacing: 0.75px;
 	}
 	&-text {
-		flex-basis: 41%;
+		flex-basis: 40%;
 	}
 	&-social {
 		display: flex;
